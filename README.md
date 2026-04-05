@@ -1,5 +1,5 @@
-# 🔍 Semantic Search Engine: 
-BERT & Elasticsearch A high-performance semantic search system that moves beyond keyword matching to understand the contextual meaning of queries. This project leverages BERT (Bidirectional Encoder Representations from Transformers) to generate 768-dimensional dense vectors and Elasticsearch for efficient k-Nearest Neighbor (kNN) retrieval.
+# 🔍 Semantic Search Engine: BERT & Elasticsearch
+A high-performance semantic search system that moves beyond keyword matching to understand the contextual meaning of queries. This project leverages BERT (Bidirectional Encoder Representations from Transformers) to generate 768-dimensional dense vectors and Elasticsearch for efficient k-Nearest Neighbor (kNN) retrieval.
 
 # 🚀 Features:
 - Contextual Understanding: Uses sentence-transformers (BERT-based) to capture deep semantic relationships.
