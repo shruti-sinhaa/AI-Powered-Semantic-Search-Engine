@@ -17,8 +17,7 @@ BERT & Elasticsearch A high-performance semantic search system that moves beyond
  1) Preprocessing: Raw text data is cleaned and tokenized.
  2) Embedding: Each document is passed through a pre-trained BERT model to generate a numerical vector (embedding).
  3) Indexing: Documents and their corresponding embeddings are indexed into Elasticsearch.
- 4)  Querying:
- - User input is converted into a vector using the same BERT model.
+ 4)  Querying: - User input is converted into a vector using the same BERT model.
  - Elasticsearch performs a cosine similarity search between the query vector and indexed document vectors.
  - Top $k$ most relevant results are returned based on the similarity score.
 
@@ -30,17 +29,29 @@ BERT & Elasticsearch A high-performance semantic search system that moves beyond
 
 # ⚙️ Installation & Setup: 
 1) Clone the Repository:
-```bash git clone https://github.com/yourusername/semantic-search-bert.git cd semantic-search-bert```
+```
+bash git clone https://github.com/yourusername/semantic-search-bert.git cd semantic-search-bert
+```
 2)Install Dependencies:
-``` Bash pip install -r requirements.txt ```
+```
+Bash pip install -r requirements.txt
+ ```
 3) Run Elasticsearch: Ensure you have an Elasticsearch instance running (Local or Docker).
-``` Bash docker run -p 9200:9200 -e "discovery.type=single-node" elasticsearch:8.x ```
-4) Index Data:
- ``` Bash python index_data.py --file data.csv ```
-5) Search:
-``` Bash python search.py --query "How does machine learning impact search engines?" ```
-6) Run the application:
-```bash streamlit run app.py ```
+```
+Bash docker run -p 9200:9200 -e "discovery.type=single-node" elasticsearch:8.x
+```
+5) Index Data:
+ ```
+ Bash python index_data.py --file data.csv
+```
+7) Search:
+```
+ Bash python search.py --query "How does machine learning impact search engines?"
+```
+9) Run the application:
+```
+bash streamlit run app.py
+```
 
 # 📊 Performance & EvaluationLatency:
 - Average search response time of $<100ms$ on a dataset of $10,000+$ records.
