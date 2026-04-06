@@ -75,3 +75,7 @@ bash streamlit run app.py
 
 # 👩‍💻 Author 
 💼 LinkedIn: [Shruti Sinha](www.linkedin.com/in/shruti-sinha24)
+
+
+Let’s connect professionally and grow!
+ 💡 Thanks for checking out the project! Your support means a lot — feel free to star ⭐ this repo or share it with someone.🚀
