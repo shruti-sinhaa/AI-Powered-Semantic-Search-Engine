@@ -73,4 +73,5 @@ bash streamlit run app.py
 - Indexing: Vectors are stored and indexed for fast similarity searching.
 - Retrieval: When a user enters a query, the system calculates the "cosine similarity" between the query vector and the document vectors to return the best matches.
 
-# 👩‍💻 Author 💼 LinkedIn: [Shruti Sinha](www.linkedin.com/in/shruti-sinha24)
+# 👩‍💻 Author 
+💼 LinkedIn: [Shruti Sinha](www.linkedin.com/in/shruti-sinha24)
